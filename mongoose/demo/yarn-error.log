@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add mongoose
+
+PATH: 
+  /Users/hanshoujun/.rvm/gems/ruby-2.5.3/bin:/Users/hanshoujun/.rvm/gems/ruby-2.5.3@global/bin:/Users/hanshoujun/.rvm/rubies/ruby-2.5.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/hanshoujun/.rvm/gems/ruby-2.5.3/bin:/Users/hanshoujun/.rvm/gems/ruby-2.5.3@global/bin:/Users/hanshoujun/.rvm/rubies/ruby-2.5.3/bin:/Users/hanshoujun/.rvm/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.npmjs.org
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+
+npm manifest: 
+  {
+    "name": "demo01",
+    "version": "1.0.0",
+    "description": "demo for mongodb",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "hsj",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
